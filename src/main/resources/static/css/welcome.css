@@ -1,0 +1,17 @@
+* {
+	font-family: Trebuchet MS;
+}
+
+.common {
+	background-image: url("/images/pic1.jpeg");
+	background-size: cover;
+	color: white;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#links {
+	text-align: center;
+	padding-top: 400px;
+}

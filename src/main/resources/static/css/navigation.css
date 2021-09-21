@@ -1,0 +1,29 @@
+* {
+	font-family: Trebuchet MS;
+}
+
+header {
+	background-color: rgba(0, 0, 0, .4);
+	height: 72px;
+}
+
+header * {
+	color: white;
+}
+
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 1em;
+}
+
+header .logo-text {
+	margin: 9px;
+}
+
+header .nav {
+	float: right;
+	margin: 0px;
+	padding: 20px;
+	list-style: none;
+}

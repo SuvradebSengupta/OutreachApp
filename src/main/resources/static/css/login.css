@@ -1,0 +1,30 @@
+* {
+	font-family: Trebuchet MS;
+}
+
+body {
+	background-image: url("/images/admin-background.png");
+	background-size: cover;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#login .container #login-row #login-column #login-box {
+	margin-top: 40px;
+	max-width: 600px;
+	border: 1px solid #9C9C9C;
+	background-color: #EAEAEA;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+	padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link
+	{
+	margin-top: -60px;
+}

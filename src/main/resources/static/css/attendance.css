@@ -1,0 +1,30 @@
+* {
+	font-family: Trebuchet MS;
+}
+
+body {
+	background-image: url("/images/admin-background.png");
+	background-size: cover;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#login-box {
+	border: 1px solid #9C9C9C;
+	background-color: #EAEAEA;
+	opacity: 0.8;
+	width: 100%;
+}
+
+#report {
+	text-align: center;
+	padding-top: 100px;
+}
+
+#search {
+	text-align: center;
+	padding-top: 100px;
+	font-size:175%;
+	font-weight:bold;
+}

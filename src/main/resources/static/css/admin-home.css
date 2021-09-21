@@ -1,0 +1,169 @@
+* {
+	font-family: Trebuchet MS;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("/images/admin-background.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-image: url("/images/admin-background.png");
+}
+
+header {
+	background-color: rgba(0, 0, 0, .4);
+	height: 66px;
+}
+
+header * {
+	color: white;
+}
+
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 2em;
+}
+
+header .logo-text {
+	margin: 9px;
+}
+
+header ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+header ul li {
+	float: left;
+	position: relative;
+}
+
+header ul li ul {
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+	display: none;
+}
+
+header ul li:hover ul {
+	display: block;
+}
+
+header ul li ul li {
+	width: 100%;
+}
+
+header ul li ul li a {
+	padding: 10px;
+	background: white;
+	color: #444;
+}
+
+header ul li ul li a.logout {
+	color: black;
+}
+
+header ul li ul li a:hover {
+	background: #d5d6d6;
+}
+
+header ul li a {
+	display: block;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+header ul li a {
+	/* background: #4861D4;*/
+	transition: 0.5s;
+}
+
+header .menu-toggle {
+	display: none;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1 {
+	color: rgba(255, 255, 255, 0.911);
+	font-size: 70px;
+}
+
+.button-group {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	border: 1px solid #17a2b8;;
+	padding: 10px 30px;
+	background-color: #17a2b8;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #d5d6d6;
+	border: 1px solid #d5d6d6;
+	color: #000;
+}
+
+.admin-wrapper {
+	display: flex;
+	height: calc(100% -66px);
+}
+
+.admin-wrapper .left-sidebar {
+	background-color: rgba(0, 0, 0, .4);
+	position: fixed;
+	width: 250px;
+	top: 0.2%;
+	left: 0;
+	bottom: 0;
+	padding-top: 50px;
+	margin-top: 66px;
+}
+
+.admin-wrapper .left-sidebar a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	
+	letter-spacing: 2px;
+}
+
+.admin-wrapper .left-sidebar h1 {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin: 0;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.admin-wrapper .left-sidebar a:hover {
+	color: #fff;
+	margin-left: 20px;
+	transition: 0.4s;
+}
